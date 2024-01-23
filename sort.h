@@ -4,7 +4,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Data structure for doubly linked list */
+/**
+ * struct listint_s - Node of a doubly linked list
+ *
+ * @n: Integer stored in the node
+ * @prev: Pointer to the previous element of the list
+ * @next: Pointer to the next element of the list
+ *
+ * Description: Doubly linked list node structure
+ * for Holberton project
+ */
 typedef struct listint_s
 {
 	const int n;
